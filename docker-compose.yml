@@ -8,3 +8,5 @@ services:
      - .:/code
   redis:
     image: "redis:alpine"
+    volumes:
+     - //c/var/lib/docker/redis/data:/data
